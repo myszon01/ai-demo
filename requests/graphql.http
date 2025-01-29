@@ -5,6 +5,7 @@ GET {{baseUrl}}/graphiql
 GRAPHQL  {{baseUrl}}/graphql
 
 query {
+    hello2
     hello {
         message
     }
