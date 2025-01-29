@@ -1,0 +1,11 @@
+GET {{baseUrl}}/graphiql
+
+
+###
+GRAPHQL  {{baseUrl}}/graphql
+
+query {
+    hello {
+        message
+    }
+}
